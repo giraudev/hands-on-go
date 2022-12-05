@@ -13,5 +13,5 @@ func main() {
 	// use the fmt package to print the string "Hello Gopher!"
 	fmt.Println("Hello Gopher")
 	// use the time package to print the current weekday
-	fmt.Printf("Today is ", time.Now().Weekday())
+	fmt.Println("Today is ", time.Now().Weekday())
 }
